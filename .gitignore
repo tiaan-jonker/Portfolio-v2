@@ -67,3 +67,8 @@ bundle.*
 dev.sqlite3
 
 tags
+
+package-lock.json
+static
+bundle.*
+/.firebase

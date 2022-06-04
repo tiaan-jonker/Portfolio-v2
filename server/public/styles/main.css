@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: #000;
+}
+
+.logo {
+  width: 40px;
+  height: 100%;
+}
+
+.home-header {
+  color: #fff;
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+}
