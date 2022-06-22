@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  color: #eee;
+}
+
 a {
   font-family: inherit;
   color: inherit;

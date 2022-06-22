@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
 
 body {
   background-color: #000;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 360px;
+  width: 1370px;
 }
 
 .logo {
@@ -10,7 +17,51 @@ body {
 }
 
 .home-header {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.home-title {
   color: #fff;
   font-family: 'Space Grotesk';
   font-weight: 300;
+  font-size: 48px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0px 100px;
+  height: 160px;
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.nav-item {
+  font-family: 'Space Grotesk';
+  text-transform: uppercase;
+}
+
+.code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 200px;
+}
+
+.footer-container {
+  padding: 0 100px;
 }
